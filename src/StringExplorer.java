@@ -17,8 +17,11 @@ public class StringExplorer {
 		String lowerCase = sample.toLowerCase();
 		System.out.println("sample.toLowerCase() = " + lowerCase);
 		System.out.println("After toLowerCase(), sample = " + sample);
+		
 
 		// Try other methods here:
+		int notFoundPsn = sample.indexOf("slow");
+		System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
 
 	}
 
